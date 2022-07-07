@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>Bistup | Pages | Gallery</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="fl_left">
+        <ul class="nospace">
+          <li><a href="../index.html"><i class="fas fa-home fa-lg"></i></a></li>
+          <li><a href="../index.html">#1 LUXURY TRAVEL</a></li>
+  
+        
+        </ul>
+      </div>
+    <div class="fl_right">
+      <ul class="nospace">
+        <li><i class="fas fa-phone rgtspace-5"></i> (708) 642 6900</li>
+        <li><i class="fas fa-envelope rgtspace-5"></i> travelsbykelly@gmail.com</li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+
+<div class="wrapper row3">
+    <main class="hoc container clear"> 
+      <!-- main body -->
+      <!-- ################################################################################################ -->
+      <div class="content three_quarter first"> 
+        <!-- ################################################################################################ -->
+        <h1>Umrah Trip information</h1>
+        <img class="imgr borderedbox inspace-5" src="../images/demo/backgrounds/unnamed.jpg" alt="">
+        <p>Our company has created a number of options for people who want to embark on this beautiful journey of visiting Allah's Holy Place. </p>
+        <p>There are a few options you can can pick from when booking this trip with us. The first option you can book is the group trip. The group trip is unique as you will be travelling with a group of individuals who want to embark in this beautiful journey with you.</p>
+        <p>The group Umrah trip includes a travel guide as well as a spiritual leader. These individuals will help answer questions as well as guide you on where to go throughout the trip.</p>
+        <p> The family trip is very similar to the group trip, however, the main difference is that you will be travelling with your family! </p>
+        <p>What is included in the package? </p>
+<ul>
+    <li>luxuary Hotel (free breakfast)</li>
+    <li>Plane Ticket</li>
+    <li>Transportation</li>
+    <li>A group leader</li>
+    <li>Spiritual leader</li>
+  </ul>  
+    
+  </div>
+  </main>
+  </div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+        
+            <img src="../images/demo/backgrounds/img5.jpg" style="width:100%">
+      
+          </div>
+      <div class="mySlides fade">
+        
+        <img src="../images/demo/backgrounds/img1.jpg" style="width:100%">
+        
+      </div>
+      
+      <div class="mySlides fade">
+       
+        <img src="../images/demo/backgrounds/img2.jpg" style="width:100%">
+        
+      </div>
+      <div class="mySlides fade">
+       
+        <img src="../images/demo/backgrounds/img3.jpg" style="width:100%">
+        
+      </div>
+      <div class="mySlides fade">
+       
+        <img src="../images/demo/backgrounds/img4.jpg" style="width:100%">
+       
+      </div>
+
+      <div class="mySlides fade">
+       
+        <img src="../images/demo/backgrounds/img6.jpg" style="width:100%">
+      
+      </div>
+      <div class="mySlides fade">
+       
+        <img src="../images/demo/backgrounds/img7.jpg" style="width:100%">
+      
+      </div>
+      <div class="mySlides fade">
+       
+        <img src="../images/demo/backgrounds/img8.jpg" style="width:100%">
+      
+      </div>
+      <div class="mySlides fade">
+       
+        <img src="../images/demo/backgrounds/img9.jpg" style="width:100%">
+      
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+        <span class="dot" onclick="currentSlide(6)"></span> 
+        <span class="dot" onclick="currentSlide(7)"></span> 
+      </div>
+  </main>
+  <script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+  </script>
+
+  <style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0;
+    background: #f2709c;  
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  
+    background: linear-gradient(to right, #ff9472, #f2709c); 
+}
+.mySlides {display: none}
+img {vertical-align: middle;
+height:500px;
+border-radius: 10px;
+}
+.slideshow-container {
+  max-width: 591px;
+  position: relative;
+  margin:20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width:auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius:10px;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 10px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #202124;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.credit{
+    text-align: center;
+    color: #202124;
+    padding-top:15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  </style>
+  </div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="center">Copyright &copy; 2022 - All Rights Reserved - <a href="#">Islam Hasan </a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
